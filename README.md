@@ -14,7 +14,7 @@ The current work combines load and PV forecasting, battery modeling, and
 energy management optimization, with particular attention to the operational 
 value of forecast uncertainty.
 
-**Status:** Work in progress.
+⚡ **Status:** Work in progress.
 
 ## Dataset
 
