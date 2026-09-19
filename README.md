@@ -25,3 +25,24 @@ data from 300 customers.
 The current development and evaluation are performed on one customer while
 the forecasting and EMS framework is being established. Extension to
 additional customers is planned after the methodology is finalized.
+
+## Current Progress
+
+The project currently includes:
+
+- Ausgrid residential load and PV data preparation
+- Seasonal-naive forecasting baselines
+- N-HiTS point and quantile forecasting
+- Rolling-origin forecast evaluation
+- Simple battery model with SOC and power constraints
+- Rule-based self-consumption control
+- Deterministic EMS using Pyomo and HiGHS
+- Perfect-foresight and forecast-based EMS benchmarks
+- Comparison of q50, q75, and q90 forecast-based strategies
+- Forecast–EMS diagnostic analysis
+
+ ## Ongoing Work
+
+The next stage focuses on scenario-based energy management using probabilistic
+forecasts. This includes scenario generation from forecast distributions,
+scenario reduction, stochastic EMS, and risk-aware optimization.
