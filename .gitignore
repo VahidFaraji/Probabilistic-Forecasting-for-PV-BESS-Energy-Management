@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.pv_bess_env/
+
+# Training logs
+lightning_logs/
+
+# Raw/intermediate data
+/data/
+
+# Generated results
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

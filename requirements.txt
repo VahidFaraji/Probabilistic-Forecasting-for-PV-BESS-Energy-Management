@@ -1,0 +1,16 @@
+# Core data and configuration
+numpy
+pandas
+matplotlib
+PyYAML
+
+# Forecasting
+neuralforecast
+torch
+
+# Optimization
+pyomo==6.10.1
+highspy==1.15.1
+
+# Testing
+pytest==9.1.1
